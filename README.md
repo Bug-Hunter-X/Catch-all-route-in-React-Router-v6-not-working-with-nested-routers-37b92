@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router v6 where the catch-all route (`/*`) doesn't work correctly when nested routers are present. The issue is that the catch-all route always redirects to the home page instead of showing the 404 page. The solution involves using a more specific catch-all route that takes into account nested paths.
